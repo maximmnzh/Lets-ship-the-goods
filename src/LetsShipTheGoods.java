@@ -1,5 +1,3 @@
-
-
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -41,10 +39,10 @@ class Cargo {
             System.out.printf("Грузовик %d:\n", i);
             int j = 0;
             while (j < 12 && c <= container) {
-                System.out.printf("Контейнер %3d: ", c);
+                System.out.printf(" Контейнер %d: \n", c);
                 int k = 0;
                 while (k < 27 && b <= box) {
-                    System.out.printf("Ящик %3d ", b);
+                    System.out.printf("  Ящик %d \n", b);
                     k++;
                     b++;
                 }
